@@ -1,0 +1,65 @@
+---------------- INSTALACIÓN: NODE JS -----------------
+node --version
+node -v
+npm --version
+-------------------------------------------------------
+
+--------------- Ejecutar en Power Shell ---------------
+Get-ExecutionPolicy
+Set-ExecutionPolicy unrestricted 	--para usar CLI en la terminal de VScode
+-------------------------------------------------------
+
+-------------- INSTALACIÓN: ANGULAR CLI ---------------
+npm install -g @angular/cli
+npm install -g @angular/cli@14.2.9	-- Instalar versión específica 
+ng version
+ng v
+-------------------------------------------------------
+
+----------- INSTALACIÓN: ANGULAR MATERIAL -------------
+ng add @angular/material
+-------------------------------------------------------
+
+---------------- Actualizar NPM -------------------
+npm install -g npm@8.18.0
+npm --version
+npm -v
+-------------------------------------------------------
+----------------- COMANDOS ANGULAR --------------------
+
+ng new name
+ng new name --prefix MyApp
+ng new naat-practice-web --skip-git=true
+
+ng generate component components/first --skip-tests=true
+ng g c components/first --skip-tests=true
+
+ng generate module modules/first --flat
+ng g m  modules/first --flat
+
+ng g m modules/portal --routing 
+
+ng g m modules/material
+
+ng generate service services/request --skip-tests=true
+ng g s services/request --skip-tests=true
+
+ng generate interceptor libs/interceptors/auth --skip-tests=true
+ng g interceptor libs/interceptors/auth --skip-tests=true
+
+ng generate interceptor libs/interceptors/validator --skip-tests=true
+ng g interceptor libs/interceptors/validator --skip-tests=true
+
+ng generate pipe libs/pipes/status --skip-tests=true
+
+ng generate class utils/Api.Endpoints --skip-tests=true
+ng generate interface libs/process
+
+ng serve
+ng s
+ng serve --host 0.0.0.0 --ssl
+ng s --host 0.0.0.0 --ssl
+
+---- Instalar TypeScript ----
+npm install -g typescript
+tsc -v
