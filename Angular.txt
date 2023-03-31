@@ -26,13 +26,18 @@ npm --version
 npm -v
 -------------------------------------------------------
 ----------------- COMANDOS ANGULAR --------------------
+-------------------------------------------------------
 
+-------------------------------------------------------
+-------------- CREANDO NUEVO PROYECTO -----------------
 ng new name
 ng new name --prefix MyApp
 ng new naat-practice-web --skip-git=true
-
+-------------------------------------------------------
+---------------- CREANDO COMPONENTE -------------------
 ng generate component components/first --skip-tests=true
 ng g c components/first --skip-tests=true
+ng g c components/first --module app
 
 ng generate module modules/first --flat
 ng g m  modules/first --flat
