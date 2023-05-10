@@ -1,40 +1,54 @@
 ---------------- INSTALACIÓN: NODE JS -----------------
+
 node --version
 node -v
 npm --version
--------------------------------------------------------
 
+-------------------------------------------------------
 --------------- Ejecutar en Power Shell ---------------
+
 Get-ExecutionPolicy
 Set-ExecutionPolicy unrestricted 	--para usar CLI en la terminal de VScode
--------------------------------------------------------
 
+-------------------------------------------------------
 -------------- INSTALACIÓN: ANGULAR CLI ---------------
+
 npm install -g @angular/cli
+npm install -g @angular/cli@latest  -- Instalar versión más reciente
 npm install -g @angular/cli@14.2.9	-- Instalar versión específica 
 ng version
 ng v
 -------------------------------------------------------
+------------- DESINSTALACIÓN: ANGULAR CLI -------------
 
------------ INSTALACIÓN: ANGULAR MATERIAL -------------
-ng add @angular/material
+npm uninstall -g @angular/cli
+
 -------------------------------------------------------
+----------- INSTALACIÓN: ANGULAR MATERIAL -------------
 
----------------- Actualizar NPM -------------------
+ng add @angular/material
+
+-------------------------------------------------------
+------------------ Actualizar NPM ---------------------
+
 npm install -g npm@8.18.0
 npm --version
 npm -v
+
 -------------------------------------------------------
 ----------------- COMANDOS ANGULAR --------------------
 -------------------------------------------------------
 
 -------------------------------------------------------
 -------------- CREANDO NUEVO PROYECTO -----------------
+
 ng new name
 ng new name --prefix MyApp
 ng new naat-practice-web --skip-git=true
+
 -------------------------------------------------------
 ---------------- CREANDO COMPONENTE -------------------
+
 ng generate component components/first --skip-tests=true
 ng g c components/first --skip-tests=true
 ng g c components/first --module app
